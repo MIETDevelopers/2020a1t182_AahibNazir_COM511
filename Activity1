@@ -1,0 +1,79 @@
+a=40
+print(a,"is of type", type(a))
+
+a=2.56
+print(a,"is of type", type(a))
+
+a=1+2j
+print(a,"is of type", type(a))
+print(a,"is a complex number?",isinstance(1+2j,complex))
+
+40 is of type <class 'int'>
+2.56 is of type <class 'float'>
+(1+2j) is of type <class 'complex'>
+(1+2j) is a complex number? True
+
+num=-12
+absolute_value=abs(num)
+print(absolute_value)
+
+float_num=-90.123
+absolute_value=abs(float_num)
+print(absolute_value)
+
+12
+90.123
+
+languages=['c','c++','python','java',1,2]
+length=len(languages)
+print(length)
+
+tuple=(1,2,3,'dell','1+')
+len(tuple)
+print(tuple,'length is',len(tuple))
+
+testrange=range(3,14)
+print('Length of',testrange,'is',len(testrange))
+
+list=[]
+print(list,'Length is',len(list))
+
+6
+(1, 2, 3, 'dell', '1+') length is 5
+Length of range(3, 14) is 11
+[] Length is 0
+
+num=[9,12,11,-4,67]
+min_value=min(num)
+print('The smallest value is: ', min_value)
+
+The smallest value is:  -4
+
+print(round(23))
+
+print(round(4.56))
+
+print(round(100.678))
+
+print(round(7.5))
+
+23
+5
+101
+8
+
+name1='python3'
+print(name1.isalnum())
+
+name2='python 3'       # non-numeric values like, whitespaces, @
+print(name2.isalnum())
+
+string1='@python3'
+print(string1.isalnum())
+
+True
+False
+False
+
+ 
+
